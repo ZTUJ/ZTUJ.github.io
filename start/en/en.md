@@ -53,10 +53,10 @@ Badania naszego zakładu prowadzone są częściowo w ramach międzynarodowego p
 
 # Pracownicy
 
-  - [Jacek Golak](./0en.html)
-  - [Roman Skibiński](./00en.html)
-  - [Sushil Sharma](./000en.html)
-  - [Artur Ankowski](./0000en.html)
-  - [Kacper Topolnicki](./00000en.html)
-  - [Elena Perez del Rio](./000000en.html)
+  - [Jacek Golak](./jacekgolak.html)
+  - [Roman Skibiński](./romanskibinski.html)
+  - [Sushil Sharma](./sushilsharma.html)
+  - [Artur Ankowski](./arturankowski.html)
+  - [Elena Perez del Rio](./elenaperezdelrio.html)
+  - [Kacper Topolnicki](./kacpertopolnicki.html)
 
