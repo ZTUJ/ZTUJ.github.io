@@ -1,0 +1,2 @@
+- email: [kacper.topolnicki@uj.edu.pl](mailto:kacper.topolnicki@uj.edu.pl)
+- pokój: B-2-40
