@@ -103,7 +103,8 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
        
         if toc is not None:
             toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")\n")
-        all_md.append("\n\n" + ("#" * level) + " [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")" + "\n\n")
+        #all_md.append("\n\n" + ("#" * level) + " [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")" + "\n\n")
+        all_md.append((" " * level) + "-" + " [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")" + "\n")
 
 if(__name__ == "__main__"):
     parser = argparse.ArgumentParser(description = """
