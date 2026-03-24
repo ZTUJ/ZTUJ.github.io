@@ -1,4 +1,9 @@
-<center>
-[![](---ThisDir---/KacperTopolnicki.jpg)](https://sites.google.com/view/gr-natalka/main)
-</center>
-
+<style>
+.small {
+    text-align: right;
+    font-size: smaller;
+}
+</style>
+<div class=small>
+[HOME](https://ztuj.github.io/)
+</div>
