@@ -21,7 +21,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
     level : int
         Level in the tree, starting with 0
     """
-    global args , num
+    global args , num 
     dirname = os.path.split(directory)[-1][4:]
     title = dirname.replace("_" , " ")
     anchour = make_anchour(dirname) 
@@ -93,6 +93,11 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         index_md = meta + init + "".join(toc_markdown) + "\n" + "".join(all_markdown) + "\n"
 
         nnme = thisnum * "0" + args.name 
+        if os.path.isfile(os.path.join(directory , "node_name")):
+            with open(os.path.join(directory , "node_name") , "r") as nnf:
+                nnme = nnf.read().strip().lower()
+                if "\n" in nnme:
+                    raise ValueError("Expecting single line in node_name.")
 
         with open(os.path.join(directory , nnme + ".md") , "w") as f:
             f.write(index_md)
@@ -103,6 +108,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
        
         if toc is not None:
             toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")\n")
+
         #all_md.append("\n\n" + ("#" * level) + " [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")" + "\n\n")
         all_md.append((" " * level) + "-" + " [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")" + "\n")
 
