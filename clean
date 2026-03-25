@@ -6,8 +6,9 @@ with open("created_files" , "r") as f:
     for fle in f.readlines():
         fle_name = fle.strip()
         if len(fle_name) > 0 and fle_name[0] == '.':
-            print("removing: " + fle_name)
-            os.remove(fle_name)
+            if os.path.isfile(fle_name):
+                print("removing: " + fle_name)
+                os.remove(fle_name)
 
 print("removing: created_files")
 os.remove("created_files")
