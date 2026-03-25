@@ -99,9 +99,9 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
             with open(os.path.join(directory , "node_name") , "r") as nnf:
                 nnme = nnf.read().strip().lower() + args.name
                 if "\n" in nnme:
-                    raise ValueError("Expecting single line in node_name.")
+                    raise ValueError("Expecting single line in node_name : " + os.path.join(directory , "node_name"))
                 if nnme in all_node_names:
-                    raise ValueError("Expecting unique node name.")
+                    raise ValueError("Expecting unique node name : " + os.path.join(directory , "node_name"))
                 all_node_names.add(nnme)
 
         with open(os.path.join(directory , nnme + ".md") , "w") as f:
