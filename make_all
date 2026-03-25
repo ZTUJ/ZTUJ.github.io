@@ -11,6 +11,8 @@ def make_anchour(s):
 
 num = -1
 args = None
+created_files = []
+all_node_names = set()
 
 def process_dir(all_md , toc_md , level , directory , pre = None , up = None , nxt = None , toc = None):
     """
@@ -21,7 +23,7 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
     level : int
         Level in the tree, starting with 0
     """
-    global args , num 
+    global args , num , created_files , all_node_names
     dirname = os.path.split(directory)[-1][4:]
     title = dirname.replace("_" , " ")
     anchour = make_anchour(dirname) 
@@ -95,16 +97,22 @@ def process_dir(all_md , toc_md , level , directory , pre = None , up = None , n
         nnme = thisnum * "0" + args.name 
         if os.path.isfile(os.path.join(directory , "node_name")):
             with open(os.path.join(directory , "node_name") , "r") as nnf:
-                nnme = nnf.read().strip().lower()
+                nnme = nnf.read().strip().lower() + "_" + args.name
                 if "\n" in nnme:
                     raise ValueError("Expecting single line in node_name.")
+                if nnme in all_node_names:
+                    raise ValueError("Expecting unique node name.")
+                all_node_names.add(nnme)
 
         with open(os.path.join(directory , nnme + ".md") , "w") as f:
             f.write(index_md)
+            created_files.append(os.path.join(directory , nnme + ".md"))
         
         subprocess.run(args.command.split() + [os.path.join(directory , nnme + ".html")] + [os.path.join(directory , nnme + ".md")]) 
+        created_files.append(os.path.join(directory , nnme + ".html"))
         
         subprocess.run(["cp"] + [os.path.join(directory , nnme + ".html")] + [os.path.join(args.htmlpath , nnme + ".html")]) 
+        created_files.append(os.path.join(args.htmlpath , nnme + ".html"))
        
         if toc is not None:
             toc_md.append(("\t" * (level - 1)) + "* [" + title  + "](" + os.path.join(args.htmlpath , nnme + ".html")  + ")\n")
@@ -130,4 +138,8 @@ if(__name__ == "__main__"):
         process_dir(all_markdown , toc_markdown , 0 , args.start , toc = args.toc)
     else:
         process_dir(all_markdown , toc_markdown , 0 , args.start , toc = None)
+
+    with open(os.path.join(args.htmlpath , "created_files") , "a") as f:
+        f.write("\n".join(created_files))
+        f.write("\n")
     
