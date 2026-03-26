@@ -1,5 +1,5 @@
 <center>
-![](---ThisDir---/Logo_ZTUJ.png)
+![](---ThisDir---/A.jpg)
 </center>
 <style>
 .small {
@@ -8,7 +8,7 @@
 }
 </style>
 <div class=small>
-[PL](./pl.html)  [EN](./en.html) 
+[PL](./pl.html)  [EN](./_en.html) 
 </div>
 <!---<div class=small>
 ☀️ [PL](./pl.html)  [EN](./en.html) 

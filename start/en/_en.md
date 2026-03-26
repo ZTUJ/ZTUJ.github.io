@@ -3,7 +3,7 @@ title: Zakład Teorii Układów Jądrowych
 ---
 
 <center>
-![](./start/en/Logo_ZTUJ.png)
+![](./start/en/A.jpg)
 </center>
 <style>
 .small {
@@ -12,7 +12,7 @@ title: Zakład Teorii Układów Jądrowych
 }
 </style>
 <div class=small>
-[PL](./pl.html)  [EN](./en.html) 
+[PL](./pl.html)  [EN](./_en.html) 
 </div>
 <!---<div class=small>
 ☀️ [PL](./pl.html)  [EN](./en.html) 
