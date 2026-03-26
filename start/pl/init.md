@@ -1,5 +1,5 @@
 <center>
-![](---ThisDir---/Logo_ZTUJ.png)
+![](---ThisDir---/A.jpg)
 </center>
 <style>
 .small {
