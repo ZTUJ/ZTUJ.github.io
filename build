@@ -20,7 +20,7 @@ make_dark='./make_dark'
 
 ./make_all "$make_light" "./start/pl" "./" ""
 #./make_all "$make_dark" "./start/pl" "./" "pl_inv"
-./make_all "$make_light" "./start/en" "./" "_en"
+./make_all "$make_light" "./start/en" "./" "en"
 #./make_all "$make_dark" "./start/en" "./" "en_inv"
 
 cp ./.html pl.html

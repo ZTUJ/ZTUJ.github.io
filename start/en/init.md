@@ -8,7 +8,7 @@
 }
 </style>
 <div class=small>
-[PL](./pl.html)  [EN](./_en.html) 
+[PL](./pl.html)  [EN](./en.html) 
 </div>
 <!---<div class=small>
 ☀️ [PL](./pl.html)  [EN](./en.html) 
