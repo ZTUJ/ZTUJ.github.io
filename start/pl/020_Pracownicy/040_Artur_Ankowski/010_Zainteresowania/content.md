@@ -5,7 +5,7 @@ Wszechświecie
 
 Tyle samo materii i antymaterii powstało w Wielkim Wybuchu. 
 Ewolucja Wszechświata stworzyła jednak maleńką nierównowagę: 
-na każde 1010 cząstek antymaterii przypadało 1010 i 
+na każde $10^{10}$ cząstek antymaterii przypadało $10^{10}$ i 
 jedna dodatkowa cząstka materii. Wiemy, że ta różnica nie pochodzi od kwarków.
 
 **Kluczowy krok**: Pomiar asymetrii między neutrinami a antyneutrinami
