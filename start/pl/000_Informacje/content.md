@@ -20,3 +20,9 @@ W układzie trzech i w układach o większej liczbie nukleonów występują nie 
 Obecnie koncentrujemy się na wykorzystaniu najnowszych sił i prądów jądrowych, wyprowadzonych w ramach Chiralnej Efektywnej Teorii Pola, ściśle powiązanej z QCD - fundamentalną teorią opisującej silne oddziaływania kwarków. 
 
 Badania naszego zakładu prowadzone są częściowo w ramach międzynarodowego projektu LENPIC oraz we współpracy dwustronnej z wieloma ośrodkami naukowymi na całym świecie, w szczególności z Uniwersytetem Ruhry w Bochum (Niemcy), Kyushu Institute of Technology w Kitakyushu (Japonia), Centrum Badawczym Jülich (Niemcy), Uniwersytetem w Pizie (Włochy) oraz INFN-Pisa (Włochy).
+
+## Prezentacje
+
+Prezentacje dostępne są 
+[tutaj](https://ujchmura-my.sharepoint.com/:f:/g/personal/kacper_topolnicki_uj_edu_pl/IgBPD98wCGeOT5_rw9bUgT3CARRMF8HHLGgim6Ca10sovAg?e=ofcJdE).
+Dostęp ograniczony, po zalogowaniu.
