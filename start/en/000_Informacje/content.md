@@ -1,22 +1,28 @@
-## Adres
+## Address
 
-Nasz zakład jest częścią *Instutu Fizyki*. 
-Znajdujemy się na drugim piętrze części B budynku *Wydziału Fizyki Astronomii i informatyki Stosowanej Uniwersytetu Jagiellońskiego*:
+Our department is part of the *Institute of Physics*.
+We are located on the second floor of part B of the *Faculty of Physics, Astronomy, and Applied Computer Science of the Jagiellonian University* building:
 
 <center>
 ul. prof. Stanisława Łojasiewicza 11, 30-348 Kraków
 </center>
 
-## Badania
+## Research
 
-Badanie właściwości sił działających między składnikami jąder atomowych - protonami i neutronami – pozostaje wciąż aktualne, pomimo ogromu wiedzy uzyskanej od momentu odkrycia jądra atomowego w 1911 roku. To te siły są odpowiedzialne za to, że istnieją takie, a nie inne jądra atomowe. To one decydują o mechaniźmie reakcji jądrowych i rozpadów promieniotwórczych, w tym tych kluczowych dla energetyki jądrowej. 
+The study of the properties of the forces acting between the components of atomic nuclei—protons and neutrons—remains relevant, despite the vast knowledge gained since the discovery of the atomic nucleus in 1911. These forces are responsible for the existence of the atomic nuclei they are. They determine the mechanism of nuclear reactions and radioactive decays, including those crucial to nuclear energy.
 
-Układy kilkunukleonowe są idealnym laboratorium do badania sił jądrowych. Dla takich układów możemy dokładnie rozwiązać fundamentalne równania (Schrödingera, Lippmanna-Schwingera, Faddeeeva), które prowadzą od oddziaływań pomiędzy nukleonami do właściwości jąder (energia wiązania, rozmiary, rozkład materii i ładunku elektrycznego) i prawdopodobieństw różnych reakcji jądrowych.
+Several-nucleon systems are an ideal laboratory for studying nuclear forces. For such systems, we can precisely solve fundamental equations (Schrödinger, Lippmann-Schwinger, Faddeev), which lead from interactions between nucleons to the properties of nuclei (binding energy, size, distribution of matter and electric charge) and the probabilities of various nuclear reactions.
 
-W układzie trzech i w układach o większej liczbie nukleonów występują nie tylko oddziaływania między dwoma nukleonami, ale także oddziaływania wielonukleonowe. Szczególną rolę pełni oddziaływanie trzynukleonowe, a pełne poznanie jego natury jest jednym z naszych najważniejszych celów badawczych. 
+In systems with three nucleons and in systems with more than one nucleon, not only interactions between two nucleons but also multi-nucleon interactions occur. The three-nucleon interaction plays a special role, and fully understanding its nature is one of our most important research goals.
 
-Ścisłe rozwiązania równań, w których występują modele oddziaływań jądrowych wykorzystywane są przez nas nie tylko do opisu procesów, w których bierze udział kilka nukleonów, ale także do badania oddziaływania elektronów, fotonów, pionów, mionów i neutrin z układami kilkunukleonowymi. W badaniach wykorzystujemy superkomputery zawierające dziesiątki tysięcy procesorów, a nasze obliczenia służą do projektowania eksperymentów i analizy danych doświadczalnych uzyskanych w wielu centrach badawczych, m.in. w HIGS (Durham, USA), JLab (Newport News, USA), MAMI (Moguncja, Niemcy), RIKEN (Wako, Japonia), RCNP (Osaka, Japonia) i Centrum Cyklotronowym Bronowice.
+We use exact solutions of equations containing models of nuclear interactions not only to describe processes involving several nucleons but also to study the interactions of electrons, photons, pions, muons, and neutrinos with systems of several nucleons. In our research, we utilize supercomputers containing tens of thousands of processors, and our calculations are used to design experiments and analyze experimental data obtained at numerous research centers, including the University of Warsaw. at HIGS (Durham, USA), JLab (Newport News, USA), MAMI (Mainz, Germany), RIKEN (Wako, Japan), RCNP (Osaka, Japan), and the Bronowice Cyclotron Center.
 
-Obecnie koncentrujemy się na wykorzystaniu najnowszych sił i prądów jądrowych, wyprowadzonych w ramach Chiralnej Efektywnej Teorii Pola, ściśle powiązanej z QCD - fundamentalną teorią opisującej silne oddziaływania kwarków. 
+We are currently focusing on utilizing the latest nuclear forces and currents derived from Chiral Effective Field Theory, closely related to QCD – the fundamental theory describing the strong quark interaction.
 
-Badania naszego zakładu prowadzone są częściowo w ramach międzynarodowego projektu LENPIC oraz we współpracy dwustronnej z wieloma ośrodkami naukowymi na całym świecie, w szczególności z Uniwersytetem Ruhry w Bochum (Niemcy), Kyushu Institute of Technology w Kitakyushu (Japonia), Centrum Badawczym Jülich (Niemcy), Uniwersytetem w Pizie (Włochy) oraz INFN-Pisa (Włochy).
+Our research is conducted in part as part of the international LENPIC project and in bilateral collaboration with numerous research centers worldwide, in particular the Ruhr University in Bochum (Germany), the Kyushu Institute of Technology in Kitakyushu (Japan), the Jülich Research Center (Germany), the University of Pisa (Italy), and INFN-Pisa (Italy).
+
+## Materials
+
+Materials related to department meetings, including presentation files, are available
+[here](https://ujchmura-my.sharepoint.com/:f:/g/personal/kacper_topolnicki_uj_edu_pl/IgBPD98wCGeOT5_rw9bUgT3CARRMF8HHLGgim6Ca10sovAg?e=ofcJdE).
+Access is restricted, requires login.
