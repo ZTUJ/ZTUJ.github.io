@@ -1,3 +1,3 @@
 ---
-title: Zakład Teorii Układów Jądrowych
+title: Department of Theory of Nuclear Systems
 ---

@@ -1,15 +1,15 @@
-<center>
-![](---ThisDir---/A.jpg)
-</center>
 <style>
 .small {
     text-align: right;
-    font-size: smaller;
+    font-size: small;
 }
 </style>
 <div class=small>
-[PL](./pl.html)  [EN](./en.html) 
+[PL 🇵🇱](./pl.html)
 </div>
+<center>
+![](---ThisDir---/A.jpg)
+</center>
 <!---<div class=small>
 ☀️ [PL](./pl.html)  [EN](./en.html) 
 </div>-->
