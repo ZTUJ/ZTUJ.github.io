@@ -1,28 +1,3 @@
----
-title: Artur Ankowski
-toc-title: TOC 
----
-
-<style>
-.small {
-    text-align: right;
-    font-size: smaller;
-}
-</style>
-<div class=small>
-[HOME](https://ztuj.github.io/)
-</div>
-
-
-
-
-# Kontakt
-
-- email :  [artur.ankowski@uj.edu.pl](mailto:artur.ankowski@uj.edu.pl)
-
-
-# Interests
-
 ## Neutrino interactions with atomic nuclei
 
 **Overarching goal**: understanding the asymmetry between matter and antimatter in the Universe
@@ -57,4 +32,3 @@ significant advancement in our knowledge.
 that is building the foundation for discoveries at the world's largest experiments!*
 
 [Learn more about the LBNF/DUNE project (YouTube)](https://www.youtube.com/watch?v=AYtKcZMJ_4c)
-
